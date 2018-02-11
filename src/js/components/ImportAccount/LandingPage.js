@@ -3,7 +3,7 @@ import TermAndServices from "../../containers/CommonElements/TermAndServices";
 import Countdown from 'react-cntdwn';
 
 const timeMile = 1518332400
-//const timeMile = 1518319932
+//const timeMile = 1518320532
 const format = {
 	hour: 'hh',
   minute: 'mm',
