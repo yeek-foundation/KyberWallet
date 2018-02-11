@@ -1,6 +1,14 @@
 import React from "react"
 import TermAndServices from "../../containers/CommonElements/TermAndServices";
+import Countdown from 'react-cntdwn';
 
+const timeMile = 1518332400
+//const timeMile = 1518319932
+const format = {
+	hour: 'hh',
+  minute: 'mm',
+  second: 'ss'
+}
 export default class LandingPage extends React.Component {
 
 	constructor() {
@@ -59,6 +67,9 @@ export default class LandingPage extends React.Component {
 	}
 
 	render() {
+		var now = Math.floor(Date.now() / 1000)
+
+		console.log(now)
 		return (
 			<div id="get-start">
 				<div class="frame">
@@ -72,14 +83,33 @@ export default class LandingPage extends React.Component {
 									<span>for Cryptocurrencies</span>
 								</span>
 							</h3>
-							<TermAndServices
-								termAgree={this.state.termAgree}
-								clickCheckbox={this.clickCheckbox}
-							/>
-							<button class={"button accent " + (this.state.termAgree ? "next" : "disable")}
-								onClick={this.goExchange}>
-								{this.props.translate("landing_page.get_started") || "Get Started"}
-							</button>
+							{now >= timeMile && 
+								<div>
+									<TermAndServices
+									termAgree={this.state.termAgree}
+									clickCheckbox={this.clickCheckbox}
+									/>
+									<button class={"button accent " + (this.state.termAgree ? "next" : "disable")}
+										onClick={this.goExchange}>
+										{this.props.translate("landing_page.get_started") || "Get Started"}
+									</button>
+								</div>
+							}
+
+							{now < timeMile && 
+								<div id="countdown">
+									<div className="countdown-title">Open in</div>
+									<Countdown
+									targetDate={new Date(timeMile * 1000)}
+									startDelay={0}
+									interval={1000}
+									timeSeparator={':'}
+									leadingZero
+									format ={format}
+								/>
+							  </div>
+							}
+							
 						</div>
 					</div>
 				</div>
