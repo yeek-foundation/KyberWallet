@@ -603,6 +603,8 @@ export default class BaseProvider {
                 data: data
             }, blockno)
                 .then(result => {
+                    console.log({source, dest, srcAmount, blockno})
+                    console.log("rate: " + result)
                     try{
                         var rates = this.rpc.eth.abi.decodeParameters([{
                             type: 'uint256',

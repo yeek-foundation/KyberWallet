@@ -276,3 +276,9 @@ export function showInfoProgress() {
     type: "TRANSFER.SHOW_INFO_PROGRESS"
   }
 }
+
+export function verifyTransfer(){
+  return {
+    type: "TRANSFER.VERIFY_TRANSFER",
+  }
+}

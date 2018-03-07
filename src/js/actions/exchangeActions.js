@@ -519,7 +519,6 @@ export function setSnapshot(data){
   }
 }
 
-
 export function setEstimateTimeProgress(time) {
   return {
     type: "EXCHANGE.SET_ESTIMATE_TIME_PROGRESS",
@@ -540,4 +539,21 @@ export function showInfoProgress() {
   }
 }
 
+export function verifyExchange(){
+  return {
+    type: "EXCHANGE.VERIFY_EXCHANGE",
+  }
+}
 
+export function fetchExchangeEnable(){
+  return {
+    type: "EXCHANGE.FETCH_EXCHANGE_ENABLE",
+  }
+}
+
+export function setExchangeEnable(enable){
+  return {
+    type: "EXCHANGE.SET_EXCHANGE_ENABLE",
+    payload: enable
+  }
+}
