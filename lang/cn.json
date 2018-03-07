@@ -98,7 +98,10 @@
     "error_tx_contract":"警告！合约执行过程中发生了错误",
     "no_pedding_tx": "没有待处理的交易",
     "rate_info": "价格也许会在结算过程中发生变化。<br> 您可以点击\"高级选项\"来显示您的最低价格。",
-    "address": "接收的地址"
+    "address": "接收的地址",
+    "network_congrestion": "由于网络拥塞，交易处理可能需要较长时间。",
+    "estimated_time":"预计时间：${time}分钟",
+    "percent_process": "已完成${percent}％"
   },
 
   "modal": {
@@ -134,7 +137,8 @@
     "select_same_token": "无法和同种代币进行交易",
     "select_token_token": "这个代币交易对目前还不支持",
     "source_amount_too_high": "原始数量过高",
-    "source_amount_too_high_cap": "原始数量超过了你的额度。你的额度是 ${ cap } ETH",
+    "source_amount_too_high_cap": "数量超过您的限额。 原始数量应该小于${ cap }个ETH",
+    "dest_amount_too_high_cap": "数量超过您的限额。 目标数量应该小于${ cap }个ETH",
     "source_amount_too_small": "原始数量过低",
     "source_amount_rate_error": "当前无法交易",
     "source_amount_too_high_for_reserve": "原始数量过高 （交易对目前还不支持）",
@@ -244,7 +248,7 @@
     "use_real":"请千万不要使用真实的以太坊账户！！！",
     "accept":"接受",
     "terms_and_condition":"条款和条件",
-    "to_get_started":"开始"
+    "to_get_started":"以开始"
   },
 
   "landing_page":{

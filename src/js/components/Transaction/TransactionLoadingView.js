@@ -173,17 +173,17 @@ const TransactionLoadingView = (props) => {
                       <img src={require("../../../assets/img/spinner.svg")} width="50"/>
                     </div>
                     {props.progress.isShowInfo && 
-                      <div class="text-white my-4">Due to network congrestion, transaction may take long time to proccess</div>
+                      <div class="text-white my-4">{props.translate("transaction.network_congrestion") || "Due to network congrestion, transaction may take long time to proccess"}</div>
                     }
                     {!props.progress.isShowInfo && 
                       <div class="k-progress">
                         <img src={require('../../../assets/img/transaction.svg')} className="mr-4"/>
                         <div className="w-100">
-                          <div class="text-right">Estimated Time: {estimateMinute} mins</div>
+                          <div class="text-right">{props.translate("transaction.estimated_time", {time: estimateMinute})||"Estimated Time: " + {estimateMinute} + " mins"}</div>
                           <div className="bar">
                             <div style={{animationDuration: estimateSecond + 's'}}></div>
                           </div>
-                          <div className="text-left text-white">{percentProgress}% Completed</div>
+                          <div className="text-left text-white">{props.translate("transaction.percent_process", {percent: percentProgress}) || {percentProgress} + "% Completed"}</div>
                         </div>
                       </div>
                     }
