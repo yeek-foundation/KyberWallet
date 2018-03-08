@@ -100,8 +100,10 @@ export function* watchProgressFunc(estimateTime){
   var step = Math.round(estimateTime / 100)
   var stepProgress = Math.max(3000, step)
   console.log(stepProgress)
+  console.log(estimateTime)
   var runner = 0
   while(true){
+    console.log(runner)
     console.log("Progress_running_exchange")
     if (runner > estimateTime) {
       store.dispatch(actions.showInfoProgress())  
