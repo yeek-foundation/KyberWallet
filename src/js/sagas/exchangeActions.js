@@ -91,36 +91,69 @@ export function* runAfterBroadcastTx(ethereum, txRaw, hash, account, data) {
   
   store.dispatch(actions.setEstimateTimeProgress(estimateTimeSecond))
   
-  var watchProgress = yield fork(watchProgressFunc, estimateTimeSecond)
+  var watchProgress = yield fork(watchProgressFunc, estimateTimeSecond, hash)
   yield take(['GLOBAL.CLEAR_SESSION', 'EXCHANGE.MAKE_NEW_EXCHANGE'])
   yield cancel(watchProgress)  
 }
 
-export function* watchProgressFunc(estimateTime){
+export function* watchProgressFunc(estimateTime, hash){
   var step = Math.round(estimateTime / 100)
-  var stepProgress = Math.max(3000, step)
-  console.log(stepProgress)
-  console.log(estimateTime)
+  //var stepProgress = Math.max(3000, step)
+  var stepProgress = 3000
+  //console.log(stepProgress)
+  //console.log(estimateTime)
   var runner = 0
-  while(true){
+
+  const iv = setInterval(() => {
     console.log(runner)
     console.log("Progress_running_exchange")
     if (runner > estimateTime) {
+      clearInterval(iv)
       store.dispatch(actions.showInfoProgress())  
       return
     }
-    //check tx is mined
+
     var state = store.getState()
-    var hash = state.exchange.txHash
-    var txs = state.txs
-    if (txs[hash] && txs[hash].status !== "pending"){
+    var exchangeHash = state.exchange.txHash
+
+    //check tx hash is same
+    if (hash !== exchangeHash){
+      clearInterval(iv)
       return
     }
-    
+
+    //check tx status is pending
+    var txs = state.txs
+    if (txs[exchangeHash] && txs[exchangeHash].status !== "pending"){
+      clearInterval(iv)
+      return
+    }
+
+    //check clear
     store.dispatch(actions.setCurrentTimeProgress(runner))
     runner += stepProgress
-    yield call(delay, stepProgress)
-  }
+  //  yield call(delay, stepProgress)
+  }, stepProgress)
+
+  // while(true){
+  //   console.log(runner)
+  //   console.log("Progress_running_exchange")
+  //   if (runner > estimateTime) {
+  //     store.dispatch(actions.showInfoProgress())  
+  //     return
+  //   }
+  //   //check tx is mined
+  //   var state = store.getState()
+  //   var hash = state.exchange.txHash
+  //   var txs = state.txs
+  //   if (txs[hash] && txs[hash].status !== "pending"){
+  //     return
+  //   }
+    
+  //   store.dispatch(actions.setCurrentTimeProgress(runner))
+  //   runner += stepProgress
+  //   yield call(delay, stepProgress)
+  // }
 }
 
 function* getInfo(hash) {

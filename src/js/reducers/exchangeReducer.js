@@ -24,6 +24,14 @@ const exchange = (state = initState, action) => {
       newState.selected = true;
       newState.sourceAmount = ""
       newState.destAmount = ""
+
+      newState.txHash = ""
+      newState. progress = {
+        estimateTime : 0,
+        currentTime : 0,
+        isShowInfo : false,
+      }
+
       newState.errors = initState.errors
       newState.advanced = false
       //newState.gasPrice = initState.gasPrice
