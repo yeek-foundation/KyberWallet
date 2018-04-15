@@ -205,6 +205,22 @@
         "decimal": 18,
         "icon": "link.svg",
         "usd_id":"chainlink"
+      },
+      "MOT": {
+        "name": "Olympus Labs",
+        "address": "0x263c618480dbe35c300d8d5ecda19bbb986acaed",
+        "symbol": "MOT",
+        "decimal": 18,
+        "icon": "mot.svg",
+        "usd_id":"olympus-labs"
+      },
+      "ELEC": {
+        "name": "Electrify.Asia",
+        "address": "0xd49ff13661451313ca1553fd6954bd1d9b6e02b9",
+        "symbol": "ELEC",
+        "decimal": 18,
+        "icon": "elec-2.svg",
+        "usd_id":"electrifyasia"
       }
     },
     "ethScanUrl": "https://etherscan.io/",

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="3.17566372%" y1="100.02827%" x2="53.0969027%" y2="24.9767932%" id="linearGradient-1">
+            <stop stop-color="#F89923" offset="0%"></stop>
+            <stop stop-color="#F49822" offset="50.98%"></stop>
+            <stop stop-color="#EE9022" offset="69.35%"></stop>
+            <stop stop-color="#E38725" offset="82.44%"></stop>
+            <stop stop-color="#D57B28" offset="92.95%"></stop>
+            <stop stop-color="#C86F29" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="102.11122%" y1="3.59843137%" x2="34.202439%" y2="98.6666667%" id="linearGradient-2">
+            <stop stop-color="#FBD702" offset="0%"></stop>
+            <stop stop-color="#FBD503" offset="53.36%"></stop>
+            <stop stop-color="#FBD10D" offset="72.58%"></stop>
+            <stop stop-color="#FAC917" offset="86.28%"></stop>
+            <stop stop-color="#F6BC17" offset="97.29%"></stop>
+            <stop stop-color="#F6B918" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <circle id="Oval" fill="#6F2C91" fill-rule="nonzero" cx="14" cy="14" r="14"></circle>
+            <g id="Group" transform="translate(5.245977, 5.726437)">
+                <g id="XMLID_616_" transform="translate(0.000000, 2.287356)" stroke="#FFFFFF" stroke-width="0.2368">
+                    <polygon id="XMLID_647_" points="10.4597701 6.62988506 12.7770115 6.82298851 11.0712644 4.50574713"></polygon>
+                    <polygon id="XMLID_646_" points="6.62988506 6.82298851 10.4597701 6.62988506 9.2045977 5.53563218"></polygon>
+                    <polygon id="XMLID_645_" points="12.7770115 6.82298851 15.4482759 4.95632184 11.0712644 4.50574713"></polygon>
+                    <polygon id="XMLID_644_" points="9.2045977 5.53563218 10.4597701 6.62988506 11.0712644 4.50574713"></polygon>
+                    <polygon id="XMLID_643_" points="11.0712644 4.50574713 6.91954023 2.3816092 9.2045977 5.53563218"></polygon>
+                    <polygon id="XMLID_642_" points="9.2045977 5.53563218 6.91954023 2.3816092 6.62988506 4.95632184"></polygon>
+                    <polygon id="XMLID_641_" points="15.4482759 4.95632184 12.6804598 2.73563218 11.0712644 4.50574713"></polygon>
+                    <polygon id="XMLID_640_" points="12.6804598 2.73563218 6.91954023 2.3816092 11.0712644 4.50574713"></polygon>
+                    <polygon id="XMLID_639_" points="9.2045977 0.193103448 6.91954023 2.3816092 12.6804598 2.73563218"></polygon>
+                    <polygon id="XMLID_638_" points="11.554023 0.740229885 9.2045977 0.193103448 12.6804598 2.73563218"></polygon>
+                    <polygon id="XMLID_637_" points="14.3218391 3.08965517 12.6804598 2.73563218 15.4482759 4.95632184"></polygon>
+                    <polygon id="XMLID_636_" points="17.2505747 6.0183908 15.4482759 4.95632184 17.3149425 9.01149425"></polygon>
+                    <polygon id="XMLID_635_" points="9.84827586 8.33563218 10.4597701 6.62988506 6.62988506 6.82298851"></polygon>
+                    <polygon id="XMLID_634_" points="17.3149425 9.01149425 15.4482759 4.95632184 12.7770115 6.82298851"></polygon>
+                    <polygon id="XMLID_633_" points="6.62988506 4.95632184 6.62988506 6.82298851 9.2045977 5.53563218"></polygon>
+                    <polygon id="XMLID_632_" points="5.95402299 2.25287356 3.95862069 3.12183908 6.91954023 2.3816092"></polygon>
+                    <polygon id="XMLID_631_" points="6.62988506 6.82298851 10.4275862 10.4275862 9.84827586 8.33563218"></polygon>
+                    <polygon id="XMLID_630_" points="6.98390805 11.2643678 10.4275862 10.4275862 2.99310345 9.10804598"></polygon>
+                    <polyline id="XMLID_629_" points="7.5954023 7.75632184 6.62988506 6.82298851 2.99310345 9.10804598 10.4275862 10.4275862 7.5954023 7.75632184"></polyline>
+                    <polygon id="XMLID_628_" points="10.4275862 10.4275862 14.7402299 10.2988506 9.84827586 8.33563218"></polygon>
+                    <polygon id="XMLID_627_" points="12.7770115 6.82298851 14.7402299 10.2988506 17.3149425 9.01149425"></polygon>
+                    <polygon id="XMLID_626_" points="10.4597701 6.62988506 14.7402299 10.2988506 12.7770115 6.82298851"></polygon>
+                    <polygon id="XMLID_625_" points="9.84827586 8.33563218 14.7402299 10.2988506 10.4597701 6.62988506"></polygon>
+                    <polygon id="XMLID_624_" points="0.032183908 9.42988506 2.96091954 10.7816092 2.99310345 9.10804598"></polygon>
+                    <polyline id="XMLID_623_" points="5.72873563 7.40229885 6.62988506 6.82298851 3.37931034 5.76091954 2.99310345 9.10804598 5.72873563 7.40229885"></polyline>
+                    <polygon id="XMLID_622_" points="6.62988506 4.95632184 3.37931034 5.76091954 6.62988506 6.82298851"></polygon>
+                    <polygon id="XMLID_621_" points="3.95862069 3.12183908 3.37931034 5.76091954 6.62988506 4.95632184"></polygon>
+                    <polygon id="XMLID_620_" points="0.354022989 6.62988506 0.032183908 9.42988506 2.99310345 9.10804598"></polygon>
+                    <polygon id="XMLID_619_" points="6.91954023 2.3816092 3.95862069 3.12183908 6.62988506 4.95632184"></polygon>
+                    <polygon id="XMLID_618_" points="3.37931034 5.76091954 0.354022989 6.62988506 2.99310345 9.10804598"></polygon>
+                    <polygon id="XMLID_617_" points="2.96091954 10.7816092 6.98390805 11.2643678 2.99310345 9.10804598"></polygon>
+                </g>
+                <g id="XMLID_612_" transform="translate(3.505747, 0.000000)" fill-rule="nonzero">
+                    <polygon id="XMLID_615_" fill="url(#linearGradient-1)" points="1.93488372 16 10.344186 7.18139535 5.24651163 7.18139535"></polygon>
+                    <polygon id="XMLID_614_" fill="#F4EB21" points="0.111627907 9.82325581 5.20930233 9.82325581 10.344186 7.18139535 5.24651163 7.18139535"></polygon>
+                    <polygon id="XMLID_613_" fill="url(#linearGradient-2)" points="7.73953488 0.334883721 0.111627907 9.82325581 5.20930233 9.82325581"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
