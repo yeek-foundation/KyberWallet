@@ -38,7 +38,7 @@ export default class Footer extends React.Component {
               </div>
             </div>
             <div>
-              ©️ 2018 Kyber Network
+              ©️ 2018 The Yeek Foundation. Fuck yeah!
             </div>
           </div>
           <div className="column medium-6 small-12 footer-menu text-right">

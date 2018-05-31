@@ -270,7 +270,8 @@ export default class BaseProvider {
                     }
                 })
                 .catch((err) => {
-                    reject(err)
+                    console.log("YEEK: Could not get rate for "+source+"-"+dest);
+                    resolve(0);
                 })
         })
     }

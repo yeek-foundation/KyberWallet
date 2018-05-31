@@ -30,14 +30,6 @@
         "decimal": 18,
         "usd_id":"ethereum"
       },
-      "KNC": {
-        "name": "KyberNetwork",
-        "symbol": "KNC",
-        "icon": "knc.svg",
-        "address": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200",
-        "decimal": 18,
-        "usd_id":"kyber-network"
-      },
       "DAI": {
         "name" : "DAI",
         "symbol": "DAI",
@@ -46,6 +38,15 @@
         "decimal": 18,
         "usd_id":"dai"
       },
+      "YEEK": {
+        "name": "YEEK Economy Token",
+        "symbol": "YEEK",
+        "icon": "yeek.png",
+        "address": "0x96387e69fac1d3b63e31a3a70ee3a06761887759",
+        "decimal": 18,
+        "usd_id":"YEEK"
+      },
+
       "OMG": {
         "name": "OmiseGO",
         "symbol": "OMG",
@@ -70,93 +71,77 @@
         "decimal": 18,
         "usd_id":"status"
       },
-      "ELF": {
-        "name":"Aelf",
-        "address": "0xbf2179859fc6d5bee9bf9158632dc51678a4100e",
-        "symbol": "ELF",
-        "icon": "aelf.svg",
-        "decimal": 18,
-        "usd_id":"aelf"
-      },
-      "POWR": {
-        "name":"Power Ledger",
-        "address": "0x595832f8fc6bf59c85c527fec3740a1b7a361269",
-        "symbol": "POWR",
-        "icon": "pwr.svg",
-        "decimal": 6,
-        "usd_id":"power-ledger"
-      },
       "MANA": {
-        "name":"Decentraland",
+        "name": "Decentraland",
         "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
         "symbol": "MANA",
         "icon": "mana.svg",
         "decimal": 18,
-        "usd_id":"decentraland"
+        "usd_id": "decentraland"
       },
       "BAT": {
-        "name":"Basic Attention Token",
+        "name": "Basic Attention Token",
         "address": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
         "symbol": "BAT",
         "icon": "bat.svg",
         "decimal": 18,
-        "usd_id":"basic-attention-token"
+        "usd_id": "basic-attention-token"
       },
       "REQ": {
-        "name":"Request",
+        "name": "Request",
         "address": "0x8f8221afbb33998d8584a2b05749ba73c37a938a",
         "symbol": "REQ",
         "icon": "req.svg",
         "decimal": 18,
-        "usd_id":"request-network"
+        "usd_id": "request-network"
       },
       "GTO": {
-        "name":"Gifto",
+        "name": "Gifto",
         "address": "0xc5bbae50781be1669306b9e001eff57a2957b09d",
         "symbol": "GTO",
         "icon": "gifto.svg",
         "decimal": 5,
-        "usd_id":"gifto"
+        "usd_id": "gifto"
       },
       "RDN": {
-        "name":"Raiden",
+        "name": "Raiden",
         "address": "0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6",
         "symbol": "RDN",
         "icon": "rdn.svg",
         "decimal": 18,
-        "usd_id":"raiden-network-token"
+        "usd_id": "raiden-network-token"
       },
       "APPC": {
-        "name":"AppCoins",
+        "name": "AppCoins",
         "address": "0x1a7a8bd9106f2b8d977e08582dc7d24c723ab0db",
         "symbol": "APPC",
         "icon": "appc.svg",
         "decimal": 18,
-        "usd_id":"appcoins"
+        "usd_id": "appcoins"
       },
       "ENG": {
-        "name":"Enigma",
+        "name": "Enigma",
         "address": "0xf0ee6b27b759c9893ce4f094b49ad28fd15a23e4",
         "symbol": "ENG",
         "icon": "eng.svg",
         "decimal": 8,
-        "usd_id":"enigma-project"
+        "usd_id": "enigma-project"
       },
       "SALT": {
-        "name":"Salt",
+        "name": "Salt",
         "address": "0x4156d3342d5c385a87d264f90653733592000581",
         "symbol": "SALT",
         "icon": "salt.svg",
         "decimal": 8,
-        "usd_id":"salt"
+        "usd_id": "salt"
       },
       "BQX": {
-        "name" : "Ethos",
+        "name": "Ethos",
         "address": "0x5af2be193a6abca9c8817001f45744777db30756",
         "symbol": "BQX",
         "decimal": 8,
         "icon": "bqx.svg",
-        "usd_id":"ethos"
+        "usd_id": "ethos"
       },
       "ADX": {
         "name": "AdEx",
@@ -246,6 +231,7 @@
         "icon": "enj.svg",
         "usd_id":"enjin-coin"
       }
+  
     },
     "ethScanUrl": "https://etherscan.io/",
     "bank": "0x0",

@@ -12,7 +12,7 @@ const HeaderView = (props) => {
           <div class="row column">
             <div class="column small-3">
               <Link to={logoLink} className="logo">
-                <img src={require("../../../assets/img/logo-header.svg")} />
+                <img src={require("../../../assets/img/yeek-logo.png")} />
                 {/* <span class="beta">Beta</span> */}
               </Link>
             </div>
